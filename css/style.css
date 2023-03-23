@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+* {
+    color: #27032d;
+    width: 750px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("/img/fond.png");
+    background-size: 90px;
+    overflow-x: hidden;
+}
+
+nav,
+h1,
+h2,
+h3,
+strong {
+    font-family: 'Luckiest Guy', cursive;
+}
+
+nav {
+    font-size: 1.3em;
+    background-color: #27032d;
+    height: 100%;
+    width: 750px;
+    display: flex;
+    align-items: center;
+}
+
+nav a img {
+    height: calc(100% - 40%);
+    width: calc(100% - 40%);
+    margin-left: 30px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav p {
+    font-family: 'Kanit', sans-serif;
+}
+
+header {
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    padding: 0;
+    margin: 0;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+main header {
+    width: 750px;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+main header section {
+    margin-left: 30px;
+}
+
+main header section img {
+    width: calc(100% - 70%);
+    height: calc(100% - 70%);
+    margin-right: 5px;
+    float: left;
+}
+
+main header section button {
+    width: 15%;
+    height: 10%;
+    background-color: #27032d;
+    color: white;
+    float: right;
+    clear: both;
+    margin-right: 60px;
+}
+
+main header section aside p {
+    width: 700px;
+}
+
+footer {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer img {
+    height: calc(100% - 50%);
+    width: calc(100% - 90%);
+}
+
+footer a {
+    color: white;
+}
